@@ -1,5 +1,5 @@
 module "variables" {
-  source = ""
+  source = "https://github.com/Vorest35/terramodules/blob/98dc032f16a8a5b81357388a2f721238cbdbf2ae/variables"
 }
 
 # Create vpc

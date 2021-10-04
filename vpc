@@ -1,3 +1,7 @@
+module "variables" {
+  source = ""
+}
+
 # Create vpc
 resource "aws_vpc" "Jenkins_vpc" {
   cidr_block           = "${var.vpcCIDRblock}"

@@ -1,7 +1,7 @@
-module "variables" {
+/*module "variables" {
   source = "github.com/Vorest35/terramodules/blob/98dc032f16a8a5b81357388a2f721238cbdbf2ae/variables"
 }
-
+*/
 # Create vpc
 resource "aws_vpc" "Jenkins_vpc" {
   cidr_block           = "${var.vpcCIDRblock}"
